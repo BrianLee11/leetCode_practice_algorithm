@@ -1,3 +1,2 @@
-LeetCode
-Question 1: Two Sum
+LeetCode question 1: Two Sum. 
 Languages: Python, C++, Java
