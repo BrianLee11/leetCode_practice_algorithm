@@ -1,2 +1,2 @@
 LeetCode question 1: Two Sum. 
-Languages: Python, C++, Java
+Languages: Python
