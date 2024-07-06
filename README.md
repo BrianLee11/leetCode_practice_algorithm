@@ -4,7 +4,8 @@ LeetCode pratice questions written in Python.
 
 **Logs in the order of recent dates**
 
-- Saturday, July 6, 2024:
-- Friday, July 5, 2024: 9. "Palindrome in number" is uploaded. 
+- Friday, July 6, 2024:
+  - 9. "Palindrome in number" is uploaded.
+  - 13. "Roman to integer" is uploaded. 
 - Thursday, July 4, 2024: 1. "Two Sum" is uploaded. 
 
