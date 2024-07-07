@@ -4,6 +4,9 @@ LeetCode pratice questions written in Python.
 
 **Logs in the order of recent dates**
 
+- Sunday, July 7, 2024
+    - "14. Longest common prefix using trie" is uploaded. Relevant topics: trie, traverse, python usage (''.join([]))
+ 
 - Saturday, July 6, 2024
   - "14. Longest common prefix using array" is uploaded. Relevant topics: sorting, multiple AND conditions
 
