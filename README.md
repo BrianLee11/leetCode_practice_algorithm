@@ -4,6 +4,9 @@ LeetCode pratice questions written in Python.
 
 **Logs in the order of recent dates**
 
+- Tuesday, July 9, 2024
+    - "1929. Concatenation of Array" is uploaded. Relevant topics: array, simulation, mod
+
 - Sunday, July 7, 2024
     - "14. Longest common prefix using trie" is uploaded. Relevant topics: trie, traverse, python usage (''.join([]))
  
