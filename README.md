@@ -9,6 +9,7 @@ LeetCode pratice questions written in Python.
 
 - Sunday, July 7, 2024
     - "14. Longest common prefix using trie" is uploaded. Relevant topics: trie, traverse, python usage (''.join([]))
+    - "69. sqrt(x)" is uploaded. Relevant topics: brute-force, while, approximation
  
 - Saturday, July 6, 2024
   - "14. Longest common prefix using array" is uploaded. Relevant topics: sorting, multiple AND conditions
