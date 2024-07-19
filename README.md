@@ -5,17 +5,18 @@ LeetCode pratice questions written in Python.
 **Logs in the order of recent dates**
 
 - Thursday, July 18, 2024
-    - "217 contains duplicate" is uploaded. Relevant topics: array, hash table, sorting
-    - "238 product of array except self" is uploaded. Relevant topics: array, O(n), prefix, suffix 
+    - "217. contains duplicate" is uploaded. Relevant topics: array, hash table, sorting
+    - "238. product of array except self" is uploaded. Relevant topics: array, O(n), prefix, suffix
+    - "125. Valid Palindrome" is uploaded. Relevant topics: two pointers, string, regular expression
 
 - Wednesday, July 17, 2024
-    - "347 top k-frequent elements" is uploaded. Relevant topics: array, hash table, divide and conquer, sorting, heap (priority queue), bucket sort, counting, quickselect
-    - "49 group anagrams" is uploaded. Relevant topics: array, hash table, string, sorting
+    - "347. top k-frequent elements" is uploaded. Relevant topics: array, hash table, divide and conquer, sorting, heap (priority queue), bucket sort, counting, quickselect
+    - "49. group anagrams" is uploaded. Relevant topics: array, hash table, string, sorting
 
 - Tuesday, July 9, 2024
     - "1929. Concatenation of Array" is uploaded. Relevant topics: array, simulation, mod
-    - "12 integer to Roman" is uploaded. Topics: hash table, math, string
-    - "242 valid anagram" is uploaded. Topics: hash table, sorting, string
+    - "12. integer to Roman" is uploaded. Topics: hash table, math, string
+    - "242. valid anagram" is uploaded. Topics: hash table, sorting, string
 
 - Sunday, July 7, 2024
     - "14. Longest common prefix using trie" is uploaded. Relevant topics: trie, traverse, python usage (''.join([]))
