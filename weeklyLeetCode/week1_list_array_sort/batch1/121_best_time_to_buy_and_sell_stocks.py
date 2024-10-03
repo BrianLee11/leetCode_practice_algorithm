@@ -21,24 +21,32 @@ class Solution(object):
         - Space complexity: O(1), as we are using only a few variables to keep track of profit and pointers.
         """
 
+        # defining variables
+        # time complexity: O(1)
+        # space complexity: O(1)
         buy_pointer = 0  # Pointer for buying
         sell_pointer = 1  # Pointer for selling
         max_profit = 0  # Initialize max profit to zero
-
+        
         # Iterate through the price list
+        # Time complexity: O(n), as visiting each price only once
+        # Space complexity: O(1), as using only a few variables to keep track of profit and pointer.
         while sell_pointer < len(prices):
 
             # Calculate the current profit (selling price - buying price)
+            # Time complexity: O(1)
             current_profit = prices[sell_pointer] - prices[buy_pointer]
 
             # If the current sell price is greater than or equal to the buy price, calculate profit
+            # Time complexity: O(1)
             if prices[sell_pointer] >= prices[buy_pointer]:
                 max_profit = max(max_profit, current_profit)  # Update the max profit if current profit is larger
 
             else:
                 # If the sell price is lower than the buy price, update the buy pointer
-                buy_pointer = sell_pointer
+                buy_pointer = sell_pointer # Time complexity: O(1)
 
-            sell_pointer += 1  # Move the sell pointer to the next day
+            # Time complexity: O(1)
+            sell_pointer += 1  # Move the sell pointer to the next day 
 
-        return max_profit
+        return max_profit # Time complexity: O(1)
