@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 # 121. Best Time to Buy and Sell Stock
+# Difficulty (easy/medium/hard): easy
 
 class Solution(object):
     def maxProfit(self, prices):
