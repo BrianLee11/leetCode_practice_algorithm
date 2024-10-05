@@ -10,10 +10,13 @@ class Solution(object):
         """
         """
         1. Intuition: For each number in the array, we can calculate its complement (= target - number). 
-        If the complement exists in the array (specifically, among the numbers we have already processed), then we have found the two numbers. 
-        The solution leverages a dictionary (hash table) to store the numbers and their indices we have processed. This allows quick check if the complement exists. 
+        - If the complement exists in the array (specifically, among the numbers we have already processed), then we have found the two numbers. 
+        - The solution leverages a dictionary (hash table) to store the numbers and their indices we have processed. This allows quick check if the complement exists. 
         
-        2. Approach: use dictionary (hash table), calculate a number's complement, look through dictionary to find index. 
+        2. Approach: 
+        - use dictionary (hash table)
+        - calculate a number's complement
+        - look through dictionary to find index. 
         
         3. Complexity:
         - Time complexity: O(n) as we visit each element once. We traverse the array once, and dictionary operations (insertions and lookups) take constant time on average.
