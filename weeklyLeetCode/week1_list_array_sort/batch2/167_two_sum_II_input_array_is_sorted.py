@@ -1,5 +1,6 @@
-# https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 # 167. Two Sum II - Input Array Is Sorted
+# https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+
 class Solution(object):
     def twoSum(self, numbers, target):
         """
@@ -8,7 +9,9 @@ class Solution(object):
         :rtype: List[int]
         """
         """
-        1. Intuition: For each number in the array, we can calculate its complement (= target - number). If the complement exists in the array (specifically, among the numbers we have already processed), then we have found the two numbers. The solution leverages a dictionary (hash table) to store the numbers and their indices we have processed. This allows quick check if the complement exists. 
+        1. Intuition: For each number in the array, we can calculate its complement (= target - number). 
+        If the complement exists in the array (specifically, among the numbers we have already processed), then we have found the two numbers. 
+        The solution leverages a dictionary (hash table) to store the numbers and their indices we have processed. This allows quick check if the complement exists. 
         
         2. Approach: use dictionary (hash table), calculate a number's complement, look through dictionary to find index. 
         
